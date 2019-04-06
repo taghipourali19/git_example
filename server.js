@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
   res.send('ld;fsdl');
 });
 
-app.listen(1500, () => {
+app.listen(port, () => {
   console.log(`is running on port ${port}`);
 });
